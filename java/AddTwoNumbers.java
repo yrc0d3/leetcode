@@ -38,13 +38,14 @@ public class AddTwoNumbers {
 
         return dummy.next;
     }
-}
 
-class ListNode {
-    int val;
-    ListNode next;
+    private static class ListNode {
+        int val;
+        ListNode next;
 
-    ListNode(int x) {
-        val = x;
+        ListNode(int x) {
+            val = x;
+        }
     }
 }
+
