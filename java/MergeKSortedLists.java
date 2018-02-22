@@ -123,7 +123,7 @@ public class MergeKSortedLists {
         return ret;
     }
 
-    static class LoserTree {
+    private static class LoserTree {
         // 内部结点，存储的是败者在data中的index；位置0存的是winner的index
         private int[] tree;
         // 叶子结点
