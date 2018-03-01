@@ -19,7 +19,7 @@ public class MultiplyStrings {
 
         StringBuilder sb = new StringBuilder();
         for (int i = 0; i < pos.length; i++) {
-            if (sb.length() == 0 && pos[0] == 0) {
+            if (sb.length() == 0 && pos[i] == 0) {
                 continue;
             }
             sb.append(pos[i]);
